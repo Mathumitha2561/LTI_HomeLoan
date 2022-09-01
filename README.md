@@ -1,9 +1,9 @@
 # HomeLoan (LTI project) 
 Home Loan Application -
 * FRONT END – ANGULAR 8
-* BACK END – SPRING BOOT
+* BACK END –  JDK1.8, SPRING BOOT
 * DATABASE- ORACLE 
-* API TESTING TOOL USED- POSTMAN
+* API TESTING TOOL USED- POSTMAN, JUnit 
 
 
 
@@ -18,10 +18,10 @@ Home Loan Application -
 6. Tick the checkbox in pom.xml file 
 7. Now go to the LTI HOME LOAN in side pannel right click <br>
         * build path-- configure build path <br>
-        * remove the ojdbc6 jar and import ojdbc6.jar from your system 
+        * Add ojdbc6.jar from your system 
        
-8. Now Backend is complete just check the application.properties and give your id and password of database 
-9. Now open the LtiHomeLoanApplication.java from com.lti and right click then run as application 
+8. Now Backend is complete just check the application.properties and give your id and password of database and give the port number as you required
+9. Now open the LtiAppProjectApplication.java from com.lti and right click then run as application 
 
                 Backend finally completed and SPRING will start 
                 
@@ -38,7 +38,7 @@ Home Loan Application -
 8. Then run <br>
            a. npm i bootstrap  <br>
            b. ng add @angular/material <br>
-           c. ng serve o 
+           c. ng serve -o 
           
           spring and vscode must run simultaneously
           
